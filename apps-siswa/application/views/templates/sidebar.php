@@ -35,7 +35,7 @@
             <img src="<?= base_url('assets/template/') ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
+            <a href="#" class="d-block">Gavin Al Farabi</a>
           </div>
         </div>
 
@@ -58,9 +58,16 @@
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+            <a href="<?= base_url("alumni") ?>" class="nav-link <?php if ($this->uri->segment(1) == 'alumni') echo 'active' ?>">
                 <i class="nav-icon fas fa-user"></i>
-                <p>Guru</p>
+                <p>Alumni</p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+            <a href="<?= base_url("alumnidt") ?>" class="nav-link <?php if ($this->uri->segment(1) == 'alumnidt') echo 'active' ?>">
+                <i class="nav-icon fas fa-user"></i>
+                <p>Alumni (Datatable)</p>
               </a>
             </li>
           </ul>

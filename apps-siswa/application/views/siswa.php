@@ -7,7 +7,7 @@
      </div>
      <!-- /.card-header -->
      <div class="card-body">
-         <table id="example1" class="table table-bordered table-striped">
+         <table id="example1" class="table table-bordered table-striped" id="table1">
              <thead>
                  <tr class="text-center">
                      <th>No</th>
